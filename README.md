@@ -7,7 +7,7 @@ Soccer CLI
 
 [![PyPI version](https://badge.fury.io/py/soccer-cli.svg)](http://badge.fury.io/py/soccer-cli) [![Join the chat at https://gitter.im/architv/soccer-cli](https://badges.gitter.im/architv/soccer-cli.svg)](https://gitter.im/architv/soccer-cli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Soccer for Hackers - a CLI for all the football scores. 
+Soccer for Hackers - a CLI for all the football scores. Now with API V2!  
 
 ![](http://i.imgur.com/9QbcUrj.gif)
 
@@ -157,37 +157,6 @@ To run specific test file (in this case the tests in test_request_handler.py)
 $ python -m unittest tests.test_request_handler
 ```
 
-Demo
-====
-
-### Standings
-![standings](http://i.imgur.com/voyWLQE.gif)
-
-### Live scores
-![](http://i.imgur.com/EX9GMAM.gif)
-
-### Team scores
-![](http://i.imgur.com/QfvH8QL.png)
-
-### Output in json format
-![](http://i.imgur.com/jqGhLia.gif)
-
-Todo
-====
-- [ ] Enable cache
-- [ ] Add more test cases
-- [x] Add fixtures for UEFA Champions League
-- [ ] Add league filter for live scores
-- [x] Color coding for Europa league and differentiation between straight CL and CL playoff spots, and the same for EL spots
-- [x] Add support for team line up
-- [ ] A built in watch feature so you can run once with --live and just leave the program running.
-
 Licence
 ====
 Open sourced under [MIT License](LICENSE)
-
-Support
-====
-If you like my work, please support the project by donating.
-
-- https://gratipay.com/~architv
